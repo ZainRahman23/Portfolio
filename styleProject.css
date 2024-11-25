@@ -1,0 +1,86 @@
+.projectsContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+
+.projectItem {
+    margin: 25px 50px;
+}
+
+.projectCaption {
+    max-width: 300px;
+    text-align: center;
+}
+
+.projectImage {
+    border: 1px solid blue;
+    padding: 1px;
+}
+.projectImage:hover {
+    border: 1px solid red;
+}
+
+.projectImage {
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.bigP {
+    font-size: 15pt;
+}
+
+.littleP {
+    font-size: 10pt;
+}
+
+.head {
+    margin: 0px 20px;
+    color: blue;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.header {
+    width: 100%;
+    height: 20px;
+    padding: 10px 0px;
+    background: white;
+    position: fixed;
+    top: 0px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    color: #F73718
+}
+
+.resize {
+    height: 195px;
+}
+
+.resizeGames {
+    height: 400px;
+}
+
+.resize:hover {
+    transform: scale(1.2);
+}
+
+.ex {
+    overflow:hidden;
+}
